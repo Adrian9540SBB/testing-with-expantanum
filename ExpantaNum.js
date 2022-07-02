@@ -1,5 +1,5 @@
 //Code snippets and templates from Decimal.js
-
+console.log("333")
 ;(function (globalScope) {
   "use strict";
 
@@ -1960,3 +1960,4 @@ function hardyList(ordList, omega, base)
 
   return fgh(ordList.length - 1, hardyList(subOneFromLast(ordList), [], base))
 }
+console.log("ee")
