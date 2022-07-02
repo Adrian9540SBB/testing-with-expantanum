@@ -1,0 +1,33 @@
+.container {
+    height: 200px;
+    position: relative;
+    border: 0px solid green;
+    }
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+    .center2 {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+    .button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 15px 32px;
+    }
+    .button:active {
+        background-color: #023603;
+    }
+    p {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    }
